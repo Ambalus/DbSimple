@@ -119,6 +119,9 @@ abstract class Database extends LastError implements DatabaseInterface {
     /**
      * Public methods.
      */
+    var $name;
+    var $attributes;
+    var $_lastQuery;
 
     /**
      * object blob($blob_id)
